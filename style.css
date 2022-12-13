@@ -1,0 +1,127 @@
+/*   #23395B-Prussian Blue; #406E8E-Queen Blue; #8EA8C3-Cadet Grey; #E6EFE9-Mint Cream       */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#theFather {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #E6EFE9;
+    height: 120vh;
+}
+
+#header {
+    flex-grow: 1;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    font-size: 24px;
+    color: white;
+    background-color: #23395B;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px;
+}
+
+#body {
+    flex-grow: 8;
+    display: flex;
+    flex-direction: row;
+}
+
+#mainContent {
+    border-radius: 15px;
+    margin: 20px;
+    padding: 20px;
+    flex-grow: 3;
+    background-color: #8EA8C3;
+    display: flex;
+    flex-direction: column;
+}
+
+#mainIntro>p {
+    font-size: 1.2vw;
+}
+
+#mainIntro {
+    padding: 20px;
+}
+
+.mainContentHR {
+    width: 99%;
+    color: #23395B;
+    background-color: #23395B;
+    border-width: 0px;
+    height: 2px;
+}
+
+#experience {
+    display: grid;
+    grid-template-columns: (5, 1fr);
+    height: 95%;
+    column-gap: 3vw;
+    row-gap: 3vh;
+}
+
+.years {
+    background-color: rgb(92 140 173);
+    border-radius: 15px;
+    grid-column: 1 / 2;
+    padding: 15px;
+    font-size: 1.2vw;
+}
+
+.yearsDesc {
+    border-radius: 15px;
+    background-color: rgb(92 140 173);
+    grid-column: 2 / span 4;
+    padding: 15px;
+    font-size: 1.2vw;
+}
+
+#asideContent {
+    border-radius: 15px;
+    margin: 20px;
+    padding: 20px;
+    flex-grow: 2;
+    background-color: #8EA8C3;
+}
+
+#asideContent>h2 {
+    margin-block: 1vh;
+    font-size: 1.4vw;
+}
+
+#asideContent>h3 {
+    margin-block: 1vh;
+    font-size: 1.3vw;
+}
+
+#asideContent>p {
+    margin-block: 1vh;
+    font-size: 1.2vw;
+}
+
+#skills {
+    list-style-type: disc;
+}
+
+#skills li {
+    margin-block: 1vh;
+    margin-left: 1.5vw;
+    font-size: 1.2vw;
+}
+
+#footer {
+    flex-grow: 1;
+    color: white;
+    background-color: #23395B;
+    border-radius: 15px;
+    margin: 20px;
+    padding: 20px;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+}
